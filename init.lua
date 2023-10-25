@@ -17,3 +17,9 @@ vim.keymap.set("n", "<Space>", "<Nop>", { silent = true, remap = false })
  vim.g.mapleader = " "
 
 require("lazy").setup("plugins")
+
+
+
+-- loads lua/config/init
+require("config")
+
