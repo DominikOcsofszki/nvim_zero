@@ -1,5 +1,7 @@
-require("lua/config/vim_o")
-require("lua/config/telescope-shortcuts")
-require("lua/config/general")
+require("config/set")
+require("config/remap")
+require("config/telescope-shortcuts")
+require("config/general")
 
-require("lua/config/lsp-conf")
+require("config/lsp-conf")
+require("config/harpoon")
